@@ -1,0 +1,14 @@
+image:
+  repository: warehouse-backend # change to repository adress
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  port: 8080
+
+ingress:
+  enabled: true
+  hosts:
+    - host: warehouse.example.com
+      paths:
+        - /
