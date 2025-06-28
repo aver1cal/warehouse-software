@@ -1,6 +1,6 @@
 # Warehouse Backend
 
-This backend service manages products, components inventory, and orders for a warehouse system.
+This Spring Boot backend service manages products, articles inventory, and handles orders for a warehouse system.
 Backend uses postgreSQL db, can be run locally via docker container and deployed to kubernetes with helm.
 
 ## API Endpoints
